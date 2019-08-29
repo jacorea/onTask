@@ -26,8 +26,9 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'simple_form', '~> 4.1'
 gem 'bootstrap-sass', '~> 3.3'
-gem 'actionpack', '~> 5.2.3'
+gem 'actionpack', '~> 5.0', '>= 5.0.0.1'
 gem 'devise', '~> 4.2'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -57,6 +58,8 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
+
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
