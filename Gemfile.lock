@@ -185,7 +185,7 @@ GEM
     selenium-webdriver (3.142.3)
       childprocess (>= 0.5, < 2.0)
       rubyzip (~> 1.2, >= 1.2.2)
-    simple_form (4.1.0)
+    simple_form (5.0.0)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
     sprockets (3.7.2)
@@ -243,7 +243,7 @@ DEPENDENCIES
   rails_12factor
   sass-rails (~> 5.0)
   selenium-webdriver
-  simple_form (~> 4.1)
+  simple_form (~> 5.0)
   sqlite3
   turbolinks (~> 5)
   tzinfo-data
